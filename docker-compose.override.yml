@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  web:
+    build: 
+      context: app/
+    volumes:
+      - './app:/var/www/html'
+    ports:
+      - 8081:80
+  node:
+    image: node:5.8-onbuild
+    working_dir: /var/www/html
+    ports:
+      - 3000:3000
+      - 3001:3001
+    volumes_from: 
+      - web
+    networks:
+      - front-tier        
