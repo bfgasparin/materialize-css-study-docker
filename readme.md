@@ -1,11 +1,13 @@
-# Materialize CSS And Frontend Study Docker  
+# Pai Galinha WebSite Docker Repository 
 
-This repository contains the Docker Compose file to manage
-and orchestrate Materialize CSS Study Project.
+This Project contains the Docker Pai Galinha`s Compose files that orchestrate all the website ecosystem.
 
-See `docker-compose.yml` and `docker-compose.override.yml` files 
-for more details.
+This project can be used for development and production workflow.
 
-### TODO
+For production, I use a private docker-compose.yml override file, with diferent configurations like restart policy (e.g., restart: always) to avoid services downtile.
 
-- Explain how to start project with docker
+See docker-compose.yml and docker-compose.override.yml files for more details.
+
+TODO
+
+Explain how to start project with docker
