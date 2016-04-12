@@ -1,4 +1,4 @@
-# Pai Galinha WebSite Docker Repository 
+# Pai Galinha Website Docker Repository 
 
 This Project contains the Docker Pai Galinha`s Compose files that orchestrate all the website ecosystem.
 
