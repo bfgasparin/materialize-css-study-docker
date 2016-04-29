@@ -10,7 +10,7 @@ services:
       - front-tier
       - back-tier
   db:
-    image: postgres:9.4
+    image: mysql:5.7
     env_file: .db.env
     networks:
       - back-tier
